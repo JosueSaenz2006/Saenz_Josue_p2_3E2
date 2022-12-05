@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-componente1',
@@ -11,10 +12,14 @@ export class Componente1Component implements OnInit {
   { 
 
   }
+numero:any=0;
+
+sueldos=[1700,1600,1900,1880,2000,4555]
 
   ngOnInit(): void 
   {
-
+this.numero=0;
   }
 
+  
 }
