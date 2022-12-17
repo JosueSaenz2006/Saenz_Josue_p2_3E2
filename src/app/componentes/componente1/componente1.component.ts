@@ -38,7 +38,15 @@ export class Componente1Component implements OnInit {
     localStorage.setItem('numero', this.numero);
   }
 
- 
+  navegacion(){
+    this.router.navigate([''])
+  }
+  navegacion1(){
+    this.router.navigate(['web2'])
+  }
+  navegacion2(){
+    this.router.navigate(['web3'])
+  }
 
 
 

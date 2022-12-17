@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class Componente2Component implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   nombre: any;
   correo: any;
@@ -28,5 +28,13 @@ export class Componente2Component implements OnInit {
     this.confirmar = localStorage.getItem('confirmar');
     this.numero = localStorage.getItem('numero');
   }
-  
+  navegacion(){
+    this.router.navigate([''])
+  }
+  navegacion1(){
+    this.router.navigate(['web2'])
+  }
+  navegacion2(){
+    this.router.navigate(['web3'])
+  }
 }
