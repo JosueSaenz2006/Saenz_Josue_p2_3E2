@@ -10,7 +10,23 @@ export class Componente2Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  nombre: any;
+  correo: any;
+  contra: any;
+  numero: any;
+  confirmar:any;
+ 
+  ngOnInit():void{
+    this.recuperar()
+  }
+
+  recuperar()
+  {
+    this.nombre = localStorage.getItem('nombre');
+    this.correo = localStorage.getItem('correo');
+    this.contra = localStorage.getItem('contra');
+    this.confirmar = localStorage.getItem('confirmar');
+    this.numero = localStorage.getItem('numero');
   }
   
 }

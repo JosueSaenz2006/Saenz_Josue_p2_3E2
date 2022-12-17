@@ -1,20 +1,36 @@
-<p>componente1 works!</p>
-<button >Pagina 2</button>
-<button >Pagina 3</button>
+
+<div style="background-color: rgb(83,134,166);">
+    <p>componente1 works!</p>
+
+</div>
+<br />
+
 <body>
-<input [(ngModel)]="numero"/>
-<br/>
-<strong *ngIf="numero > 3">El numero es mayor a 3</strong>
-    <p *ngIf="numero == 3">El numero es 3</p>
-    <strong *ngIf="numero < 3 || numero !=''">El numero es menor a 3</strong>
-    <p></p>
-    <tr *ngFor="let sueldo of sueldos">
-        <td>{{sueldo}}</td>
-    </tr>
-    <ul *ngFor="let sueldo of sueldos">
-        <li>{{sueldo}}</li>
-        </ul>
-        <div *ngFor="let sueldo of sueldos">
-            <div>Sueldo: {{sueldo}}</div>
-            </div>
-    </body>
+
+        <div style="background-color: rgb(51,82,102);"> 
+          <h1>Create new account</h1>
+    <input placeholder="Nombre Completo" [(ngModel)]="nombre" >
+    <br>
+    <br>
+    <input placeholder="Email" [(ngModel)]="correo" >
+    <br>
+    <br>
+    <input type="password" placeholder="Contraseña" [(ngModel)]="contra" >
+    <br>
+    <br>
+    <input type="password" placeholder="Confirmar Contraseña" [(ngModel)]="confirmar" >
+    <br>
+    <br>
+    <input placeholder="Numero Telefonico" [(ngModel)]="numero">
+    <br>
+    <br>
+
+    <div style="background-color: rgb(115,185,230);"> 
+      <br>
+    <br>
+    <button (click)="register()">Resgistrarse</button>
+ 
+    </div>
+      </div>
+
+</body>
