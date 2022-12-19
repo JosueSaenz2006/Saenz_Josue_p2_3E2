@@ -11,17 +11,17 @@ export class Componente1Component implements OnInit {
   constructor(private router: Router){}
   nombre: any;
   correo: any;
-  contra: any;
+  contrasena: any;
   numero: any;
-  confirmar:any;
+  confirmarc:any;
 
  
   ngOnInit():void{
-    this.contra;
+    this.contrasena;
     this.correo;
     this.nombre;
     this.numero;
-    this.confirmar;
+    this.confirmarc;
     //localStorage.clear()
     
   }
@@ -33,8 +33,8 @@ export class Componente1Component implements OnInit {
     this.router.navigate(['web2'])
     localStorage.setItem('nombre', this.nombre);
     localStorage.setItem('correo', this.correo);
-    localStorage.setItem('contra', this.contra);
-    localStorage.setItem('confirmar', this.confirmar);
+    localStorage.setItem('contrasena', this.contrasena);
+    localStorage.setItem('confirmarc', this.confirmarc);
     localStorage.setItem('numero', this.numero);
   }
 

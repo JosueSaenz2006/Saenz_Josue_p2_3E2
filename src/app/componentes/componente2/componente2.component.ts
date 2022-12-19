@@ -12,9 +12,9 @@ export class Componente2Component implements OnInit {
 
   nombre: any;
   correo: any;
-  contra: any;
+  contrasena: any;
   numero: any;
-  confirmar:any;
+  confirmarc:any;
  
   ngOnInit():void{
     this.recuperar()
@@ -24,8 +24,8 @@ export class Componente2Component implements OnInit {
   {
     this.nombre = localStorage.getItem('nombre');
     this.correo = localStorage.getItem('correo');
-    this.contra = localStorage.getItem('contra');
-    this.confirmar = localStorage.getItem('confirmar');
+    this.contrasena = localStorage.getItem('contrasena');
+    this.confirmarc = localStorage.getItem('confirmarc');
     this.numero = localStorage.getItem('numero');
   }
   navegacion(){
