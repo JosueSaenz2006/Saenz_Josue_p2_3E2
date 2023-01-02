@@ -30,7 +30,7 @@ export class Componente1Component implements OnInit {
 
   register()
   {
-    this.router.navigate(['web2'])
+    this.router.navigate(['web3'])
     localStorage.setItem('nombre', this.nombre);
     localStorage.setItem('correo', this.correo);
     localStorage.setItem('contrasena', this.contrasena);

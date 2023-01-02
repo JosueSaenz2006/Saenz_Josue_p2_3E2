@@ -1,0 +1,14 @@
+body {
+    color: #000000;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 80px;
+  }
+  
+
+  
+  .btn-primary {
+    background-color:  aqua !important;
+    border-color:  aqua !important;
+    
+  }
+  
