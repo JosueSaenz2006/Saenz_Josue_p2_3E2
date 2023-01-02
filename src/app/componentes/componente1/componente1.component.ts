@@ -26,7 +26,7 @@ export class Componente1Component implements OnInit {
     
   }
 
-
+  
 
   register()
   {
