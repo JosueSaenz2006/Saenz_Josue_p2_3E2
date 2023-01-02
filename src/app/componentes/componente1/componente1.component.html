@@ -5,22 +5,42 @@
         <h1>Crea una nueva cuenta</h1>
         <br>
         <div style="background-color: rgb(102,165,204);"> 
-          <br>  <br>
-  <input placeholder="Nombre Completo" [(ngModel)]="nombre" >
-  <br>
-  <br>
-  <input placeholder="Email" [(ngModel)]="correo" >
-  <br>
-  <br>
-  <input type="password" placeholder="Targeta de Credito" [(ngModel)]="contrasena" >
-  <br>
-  <br>
-  <input type="password" placeholder="Confirmar Targeta de Credito" [(ngModel)]="confirmarc" >
-  <br>
-  <br>
-  <input placeholder="Numero Telefonico" [(ngModel)]="numero">
-  <br>
-  <br>
+          <br>
+          <div class="form-group col-md-3">
+          <input placeholder="Nombre Completo" [(ngModel)]="nombre" class="form-control">
+          </div>
+
+          <br>
+          <br>
+
+          <div class="form-group col-md-3">
+          <input placeholder="Email" [(ngModel)]="correo" class="form-control" >
+          </div>
+
+          <br>
+          <br>
+  
+          <div class="form-group col-md-3">
+          <input type="password" placeholder="Targeta de Credito" [(ngModel)]="contrasena" class="form-control" >
+          </div>
+
+          <br>
+          <br>
+
+          <div class="form-group col-md-3">
+ 
+            <input type="password" placeholder="Confirmar Targeta de Credito" [(ngModel)]="confirmarc" class="form-control">
+          </div>
+  
+          <br>
+          <br>
+
+          <div class="form-group col-md-3">
+          <input placeholder="Numero Telefonico" [(ngModel)]="numero" class="form-control">
+          </div>
+  
+          <br>
+          <br>
 
   <div style="background-color: rgb(115,185,230);"> 
   <br>
