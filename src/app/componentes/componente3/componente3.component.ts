@@ -50,4 +50,5 @@ export class Componente3Component implements OnInit {
     localStorage.setItem('d', this.d);
     localStorage.setItem('e', this.e);
   }
+
 }
