@@ -8,23 +8,30 @@
     <br>
     
     <div style="background-color: rgb(115,185,230);"> 
-    <p>NOMBRE</p>
-    {{ nombre }}
-    <br>
-    <br>
+    <p>Articulos comprados</p>
+    {{ celular }} <br>
+    {{ computadora }}<br>
+    {{ audifonos }}<br>
+    {{d}}<br>
+    {{e}}<br>
     </div>
     
     <br>
     
     <div style="background-color: rgb(121,196,242);">
-    <p>EMAIL</p>
-    {{ correo }}
+    <p>Valor a pagar</p>
+    suma=a+b+c+d;
     <br>
     <br>
     </div>
     
     <div style="background-color: rgb(102,165,204);">
-    <p>NUMERO TELEFONICO</p>
+    <p>Datos del cliente</p>
+    <p>Nombre:</p>
+    {{ nombre }}
+    <p>Correo</p>
+    {{ correo }}
+    <p>Numero de Telefono</p>
     {{ numero }}
     <br>
     <br>
@@ -60,7 +67,7 @@
     
     <div style="background-color: rgb(121,196,242);">
         <br>
-        <button (click)="navegacion()">Resgistrar otra respuesta</button>
+        <button (click)="navegacion2()">Realizar otra compra</button>
         <br><br>
     </div>
     <br>

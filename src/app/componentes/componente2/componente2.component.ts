@@ -10,6 +10,11 @@ export class Componente2Component implements OnInit {
 
   constructor(private router: Router) { }
 
+  celular: any;
+  computadora: any;
+  audifonos: any;
+  d:any;
+  e: any;
   nombre: any;
   correo: any;
   contrasena: any;
@@ -17,9 +22,18 @@ export class Componente2Component implements OnInit {
   confirmarc:any;
  
   ngOnInit():void{
+    this.rcomprar()
     this.recuperar()
   }
 
+  rcomprar()
+  {
+    this.celular = localStorage.getItem('a');
+    this.computadora = localStorage.getItem('b');
+    this.audifonos = localStorage.getItem('c');
+    this.d = localStorage.getItem('d');
+    this.e = localStorage.getItem('e');
+  }
   recuperar()
   {
     this.nombre = localStorage.getItem('nombre');
@@ -28,6 +42,7 @@ export class Componente2Component implements OnInit {
     this.confirmarc = localStorage.getItem('confirmarc');
     this.numero = localStorage.getItem('numero');
   }
+
   navegacion(){
     this.router.navigate([''])
   }

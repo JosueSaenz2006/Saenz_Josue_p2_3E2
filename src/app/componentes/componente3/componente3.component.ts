@@ -9,18 +9,18 @@ import { Router } from '@angular/router';
 export class Componente3Component implements OnInit {
 
   constructor(private router: Router) { }
-  nombre: any;
-  correo: any;
-  contrasena: any;
-  numero: any;
-  confirmarc:any;
+  a: any;
+  b: any;
+  c: any;
+  d: any;
+  e: any;
 
   ngOnInit():void{
-    this.contrasena;
-    this.correo;
-    this.nombre;
-    this.numero;
-    this.confirmarc;
+    this.a="1,400";
+    this.b="1,700";
+    this.c="170";
+    this.d="980";
+    this.e="980";
     //localStorage.clear()
     
   }
@@ -34,16 +34,20 @@ export class Componente3Component implements OnInit {
   navegacion2(){
     this.router.navigate(['web3'])
   }
+  navegacion3(){
+    this.router.navigate(['web4'])
+  }
+  navegacion4(){
+    this.router.navigate(['web5'])
+  }
 
   Comprar()
   {
     this.router.navigate(['web3'])
-    localStorage.setItem('nombre', this.nombre);
-    localStorage.setItem('correo', this.correo);
-    localStorage.setItem('contrasena', this.contrasena);
-    localStorage.setItem('confirmarc', this.confirmarc);
-    localStorage.setItem('numero', this.numero);
+    localStorage.setItem('a', this.a);
+    localStorage.setItem('b', this.b);
+    localStorage.setItem('c', this.c);
+    localStorage.setItem('d', this.d);
+    localStorage.setItem('e', this.e);
   }
-
-  
 }
