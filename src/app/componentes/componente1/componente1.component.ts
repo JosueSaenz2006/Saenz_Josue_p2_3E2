@@ -45,7 +45,7 @@ export class Componente1Component implements OnInit {
     this.router.navigate(['web2'])
   }
   navegacion2(){
-    this.router.navigate(['web3'])
+    this.router.navigate(['tienda'])
   }
 
 
