@@ -14,7 +14,9 @@ export class Componente3Component implements OnInit {
   c: any;
   d: any;
   e: any;
-
+  f: any;
+  g: any;
+  
   ngOnInit():void{
     this.a="1,400";
     this.b="1,700";

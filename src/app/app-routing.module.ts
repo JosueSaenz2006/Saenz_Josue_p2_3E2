@@ -13,7 +13,7 @@ const routes: Routes = [
     path:'web2', component:Componente2Component
   },
   {
-    path:'web3', component:Componente3Component
+    path:'tienda', component:Componente3Component
   },
   {
     path:'web4', component:Componente4Component

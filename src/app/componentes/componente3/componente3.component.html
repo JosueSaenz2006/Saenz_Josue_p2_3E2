@@ -1,19 +1,34 @@
-<body style="background-color: rgb(51,82,102); text-align: center;  ">
-<div style="background-color: rgb(115,185,230);"> 
+<body style="background-color: rgb(51,82,102); text-align: center;  "> <p align="center" style="line-height: 108%; margin:0 auto">
+<div style="background-color: rgb(115,185,230);" > 
 <br>
+<h2>Carrito de compras</h2>
+<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+  </svg>
+  
+  <div class="col-sm-6">
+    <button type="button" class="btn btn-primary" (click)="navegacion()" >Salir</button>
+    <br>
+    <button type="button" class="btn btn-primary" (click)="navegacion1()">Comprar</button>
+    <br>
+    <button type="button" class="btn btn-primary" (click)="navegacion3()">Comprar eror</button>
+  </div>
 <br>
 <body>
     <header>
+        
         <nav>
             <a href="#">Inicio</a>
             <a href="#">Acerca de</a>
             <a href="#">Portafolio</a>
             <a href="#">Servicios</a>
             <a href="#">Contacto</a>
+            
         </nav>
+        
         <section class="textos-header">
-            <h1>Potencia tus ventas al menos un 200%</h1>
-            <h2>Con una página web potente</h2>
+            <h1>Supercompras</h1>
+            <h2>Encuentra todo a precios baratos</h2>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
@@ -26,8 +41,9 @@
            
                     <div style="background-color: rgb(255, 255, 255);"> 
                         <br>
-                
+                       
                         <div class="col-sm-6">
+                            
                 <!--------------------------------------------CODIGO EN HTML PARA HACER TABLAS ESTETICAS----------------------------------------------------------->
                 <!DOCTYPE html>
                 <html>
@@ -47,6 +63,7 @@
                 </head>
                 <body lang="es-EC" link="#000080" vlink="#800000" dir="ltr " background=><p align="center" style="line-height: 108%; margin:0 auto">
                     <br>
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,160L120,176C240,192,480,224,720,213.3C960,203,1200,149,1320,122.7L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
                     <br>
                     </p>
@@ -226,22 +243,22 @@
                         <tr valign="top">
                             <td width="147" bgcolor="#f2f2f2" style="background: #f2f2f2; border: 2.25pt solid #5b9bd5; padding: 0in 0.08in"><p align="left" style="orphans: 2; widows: 2">
                                 <br/>
-                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="a">Agregar</button>
+                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="d">Agregar</button>
                                 </p>
                             </td>
                             <td width="181" bgcolor="#f2f2f2" style="background: #f2f2f2; border: 2.25pt solid #5b9bd5; padding: 0in 0.08in"><p align="left" style="orphans: 2; widows: 2">
                                 <br/>
-                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="a">Agregar</button>
+                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="e">Agregar</button>
                                 </p>
                             </td>
                             <td width="184" bgcolor="#f2f2f2" style="background: #f2f2f2; border: 2.25pt solid #5b9bd5; padding: 0in 0.08in"><p align="left" style="orphans: 2; widows: 2">
                                 <br/>
-                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="a">Agregar</button>
+                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="f">Agregar</button>
                                 </p>
                             </td>
                             <td width="257" bgcolor="#f2f2f2" style="background: #f2f2f2; border: 2.25pt solid #5b9bd5; padding: 0in 0.08in"><p align="left" style="orphans: 2; widows: 2">
                                 <br/>
-                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="a">Agregar</button>
+                                <button type="button" class="btn btn-primary" style=margin:0 auto (click)="Comprar()" [(ngModel)]="g">Agregar</button>
                                 </p>
                             </td>
                         </tr>
@@ -335,15 +352,15 @@
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/512/103/103831.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        <h4>Metodo de Compras:</h4>
+                        <p>Esta es la mejor tienda del mundo, mejor que amazon y almenos por mi opinion yo le doy un 10</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        <h4>Metodo de Incio</h4>
+                        <p>Muy comodo, me encanto como el creador pone en especifico su contacto abajo...</p>
                     </div>
                 </div>
             </div>
@@ -393,13 +410,13 @@
                 </div>
                 <div class="servicio-ind">
                     <img src="https://www.webempresa.com/wp-content/uploads/2022/09/movil-contrasena-acceso-login-usuarios-400-2022.png" alt="">
-                    <h3>Name</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                    <h3>Login</h3>
+                    <p>Se recomienda que antes de entrar a la pagina web se debera de registrar pra ingresar y comprar</p>
                 </div>
                 <div class="servicio-ind">
                     <img src="https://blog.convertia.com/wp-content/uploads/2020/10/equipos-ventas-transformacion-digital-omnicanalidad.jpg" alt="">
-                    <h3>Name</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                    <h3>Navegacion</h3>
+                    <p>Encuentra todo tipo de productos de tegnologia de punta para su administracion</p>
                 </div>
             </div>
         </div>
@@ -428,18 +445,15 @@
             </div>
             <div class="content-foo">
                 <h4>Location</h4>
-                <p>Av.Americas</p>
+                <p>Av. Ordoñes Lazo</p>
             </div>
         </div>
-        <h2 class="titulo-final">&copy; Josué Sáenz 3E2 xd</h2>
+        <h2 class="titulo-final">&copy; Josué Sáenz 3E2 y Abigail Aguirre</h2>
     </footer>
     <br>
     <br>
 
 
 </div>
-<br>
-<br>
 
-
- <p> piedra te amo </p>     
+     

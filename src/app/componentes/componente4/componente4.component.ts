@@ -21,7 +21,7 @@ navegacion(){
     this.router.navigate(['web2'])
   }
   navegacion2(){
-    this.router.navigate(['web3'])
+    this.router.navigate(['tienda'])
   }
   navegacion3(){
     this.router.navigate(['web4'])
