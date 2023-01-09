@@ -17,6 +17,7 @@ export class Componente3Component implements OnInit {
   f: any;
   g: any;
   nombre:any;
+  dinero:any;
   
   ngOnInit():void{
     this.nombre;
@@ -27,6 +28,7 @@ export class Componente3Component implements OnInit {
     this.e="980";
     this.f="980";
     this.g="2,000";
+    this.dinero="0";
     //localStorage.clear()
     
   }
@@ -66,6 +68,7 @@ export class Componente3Component implements OnInit {
     localStorage.setItem('e', this.e);
     localStorage.setItem('f', this.f);
     localStorage.setItem('g', this.g);
+    localStorage.setItem('dinero',this.g);
   }
 
 }
