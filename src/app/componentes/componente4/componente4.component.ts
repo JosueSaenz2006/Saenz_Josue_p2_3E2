@@ -14,7 +14,7 @@ export class Componente4Component implements OnInit {
 
   }
 
-navegacion(){
+  navegacion(){
     this.router.navigate([''])
   }
   navegacion1(){
@@ -28,5 +28,8 @@ navegacion(){
   }
   navegacion4(){
     this.router.navigate(['web5'])
+  }
+  navegacion5(){
+    this.router.navigate(['web6'])
   }
 }

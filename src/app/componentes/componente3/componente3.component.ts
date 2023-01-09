@@ -16,13 +16,17 @@ export class Componente3Component implements OnInit {
   e: any;
   f: any;
   g: any;
+  nombre:any;
   
   ngOnInit():void{
+    this.nombre;
     this.a="1,400";
     this.b="1,700";
     this.c="170";
-    this.d="980";
+    this.d="1,200";
     this.e="980";
+    this.f="980";
+    this.g="2,000";
     //localStorage.clear()
     
   }
@@ -34,13 +38,22 @@ export class Componente3Component implements OnInit {
     this.router.navigate(['web2'])
   }
   navegacion2(){
-    this.router.navigate(['web3'])
+    this.router.navigate(['tienda'])
   }
   navegacion3(){
     this.router.navigate(['web4'])
   }
   navegacion4(){
     this.router.navigate(['web5'])
+  }
+  navegacion5(){
+    this.router.navigate(['web6'])
+  }
+
+  recuperar()
+  {
+    this.nombre = localStorage.getItem('nombre');
+  
   }
 
   Comprar()
@@ -51,6 +64,8 @@ export class Componente3Component implements OnInit {
     localStorage.setItem('c', this.c);
     localStorage.setItem('d', this.d);
     localStorage.setItem('e', this.e);
+    localStorage.setItem('f', this.f);
+    localStorage.setItem('g', this.g);
   }
 
 }

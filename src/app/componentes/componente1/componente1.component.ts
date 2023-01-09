@@ -30,7 +30,7 @@ export class Componente1Component implements OnInit {
 
   register()
   {
-    this.router.navigate(['tienda'])
+    this.router.navigate(['web5'])
     localStorage.setItem('nombre', this.nombre);
     localStorage.setItem('correo', this.correo);
     localStorage.setItem('contrasena', this.contrasena);
@@ -46,6 +46,15 @@ export class Componente1Component implements OnInit {
   }
   navegacion2(){
     this.router.navigate(['tienda'])
+  }
+  navegacion3(){
+    this.router.navigate(['web4'])
+  }
+  navegacion4(){
+    this.router.navigate(['web5'])
+  }
+  navegacion5(){
+    this.router.navigate(['web6'])
   }
 
 

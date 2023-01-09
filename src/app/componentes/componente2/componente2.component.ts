@@ -15,6 +15,8 @@ export class Componente2Component implements OnInit {
   audifonos: any;
   d:any;
   e: any;
+  f: any;
+  g: any;
   nombre: any;
   correo: any;
   contrasena: any;
@@ -23,6 +25,7 @@ export class Componente2Component implements OnInit {
  
   ngOnInit():void{
     this.rcomprar()
+    this.recuperar()
     this.recuperar()
   }
 
@@ -33,6 +36,8 @@ export class Componente2Component implements OnInit {
     this.audifonos = localStorage.getItem('c');
     this.d = localStorage.getItem('d');
     this.e = localStorage.getItem('e');
+    this.f = localStorage.getItem('f');
+    this.g = localStorage.getItem('g');    
   }
   recuperar()
   {
@@ -51,5 +56,14 @@ export class Componente2Component implements OnInit {
   }
   navegacion2(){
     this.router.navigate(['tienda'])
+  }
+  navegacion3(){
+    this.router.navigate(['web4'])
+  }
+  navegacion4(){
+    this.router.navigate(['web5'])
+  }
+  navegacion5(){
+    this.router.navigate(['web6'])
   }
 }

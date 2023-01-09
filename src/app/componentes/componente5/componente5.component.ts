@@ -9,7 +9,25 @@ import { Router } from '@angular/router';
 export class Componente5Component implements OnInit {
 
   constructor(private router: Router){}
-  ngOnInit(): void {
+  nombre: any;
+  contrasena: any;
+
+ 
+  ngOnInit():void{
+    this.contrasena;
+    this.nombre;
+    //localStorage.clear()
+    
+  }
+
+  
+
+  register()
+  {
+    this.router.navigate(['tienda'])
+    localStorage.setItem('nombre', this.nombre);
+    localStorage.setItem('contrasena', this.contrasena);
+   
   }
 
   navegacion(){
@@ -26,5 +44,8 @@ export class Componente5Component implements OnInit {
   }
   navegacion4(){
     this.router.navigate(['web5'])
+  }
+  navegacion5(){
+    this.router.navigate(['web6'])
   }
 }
